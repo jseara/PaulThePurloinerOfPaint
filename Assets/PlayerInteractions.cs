@@ -7,8 +7,8 @@ public class PlayerPickup : MonoBehaviour {
 	// Use this for initialization
 	void onClick()
 	{
-		if(Input.GetKeyDown(key: "G"))
-		{
+		//if(Input.GetKeyDown(key: "G"))
+		//{
 			//Pick-up items
 
 			//Send out raycast, nearest item to the player is the one interacted with
@@ -19,16 +19,16 @@ public class PlayerPickup : MonoBehaviour {
 				//pickup and add to visible inventory
 			//if(item == well)
 				//remove all current coats of paint
-		}
-		if(Input.GetKeyDown(key: "E"))
-		{
+		//}
+		//if(Input.GetKeyDown(key: "E"))
+		//{
 			//Player applies coat of paint
 			//Display progress bar that updates
 			//Upon update completion, do the following
 			//Check if previous coat of paint was present
 				//If yes, apply mix between two colors
 				//If no, apply color
-		}
+		//}
 	}
 
 }
