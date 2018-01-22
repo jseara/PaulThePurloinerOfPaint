@@ -2,8 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PlayerPickup : MonoBehaviour {
-
+public class PlayerInteractions : MonoBehaviour 
+{
 	// Use this for initialization
 	void onClick()
 	{
